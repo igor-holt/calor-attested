@@ -1,0 +1,68 @@
+{
+  "collection": "c01-calor-attested",
+  "generated_by": "swarm-artifacts loop-001",
+  "models": {
+    "image": "grok-imagine-image-2.0",
+    "video": "grok-imagine-video-1.5-lite"
+  },
+  "artifacts": [
+    {
+      "file": "01.jpg",
+      "sha256": "9e65bf8eac887943e2e2bdf8a0b7d02ef3fa64e487d4fe666c5da0e0e5691f34",
+      "bytes": 257328,
+      "prompt": "Editorial luxury photograph of a black anodized reliquary shaped like a GeForce shroud, interior glowing at a precise cool 38 degrees, thin gold vapor tracing a 50-watt envelope, the state-hash d06954729bdd9b3e etched in hairline type along the bezel. Medium: large-format film, shallow depth. Lighting: single tungsten rim, no fill. Mood: devout, sensual, hushed. Style: thermal provenance, transgressive quiet luxury, never explicit."
+    },
+    {
+      "file": "02-assay.jpg",
+      "sha256": "c71c6beab0059d518a4e32f4485261b24cb743b09ceca1bc394ef8916e17966e",
+      "bytes": 290199
+    },
+    {
+      "file": "02-vitrine.jpg",
+      "sha256": "0a699f7c2768c26e1be0dbea5d83ceebede629d85e00ec7d03c9268c2d6bb16c",
+      "bytes": 192853
+    },
+    {
+      "file": "02-witness.jpg",
+      "sha256": "22ca473fed905f1ffddd8f02aaa7b25440e7b52820dfd48af9c748d1928ae372",
+      "bytes": 482435
+    },
+    {
+      "file": "03-assay.jpg",
+      "sha256": "42f2f6db64a956306e539def33cc078c998084c57c78f33d82ea3b2d5cd4e254",
+      "bytes": 355630
+    },
+    {
+      "file": "03-vitrine.jpg",
+      "sha256": "aa8efc7c76648a9b301d08e505ad30e3a1cedbfd3ba48f2f28d20d32bfb86dde",
+      "bytes": 166056
+    },
+    {
+      "file": "03-witness.jpg",
+      "sha256": "9ccec479202c3e3b00183f5a20e13d340b1db523a91cd691935131ce95d42518",
+      "bytes": 491372
+    },
+    {
+      "file": "04-vitrine.jpg",
+      "sha256": "aefe7a31eb503f9606f55e749fc00400752dab522996d4d7524a5dad197faf95",
+      "bytes": 168907
+    },
+    {
+      "file": "hero-6s.mp4",
+      "sha256": "547fe650ded822c8253fc5a75e3e37a86e3afead083e28be3086774e83be2c79",
+      "bytes": 1537645
+    }
+  ],
+  "attestation": {
+    "seed": "d06954729bdd9b3e",
+    "state": {
+      "ts": 1791098372.84,
+      "device": "NVIDIA GeForce GTX 1650",
+      "temperature_c": 38,
+      "power_limit_mw": 50000,
+      "qubo_energy": null
+    },
+    "prompt_fragment": "live-machine attestation: NVIDIA GeForce GTX 1650 at 38C under a 50W power envelope, state-hash d06954729bdd9b3e",
+    "captured_at": "2026-10-04T07:19:32Z"
+  }
+}

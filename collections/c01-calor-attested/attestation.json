@@ -1,0 +1,1 @@
+{"seed": "d06954729bdd9b3e", "state": {"ts": 1791098372.84, "device": "NVIDIA GeForce GTX 1650", "temperature_c": 38, "power_limit_mw": 50000, "qubo_energy": null}, "prompt_fragment": "live-machine attestation: NVIDIA GeForce GTX 1650 at 38C under a 50W power envelope, state-hash d06954729bdd9b3e", "captured_at": "2026-10-04T07:19:32Z"}

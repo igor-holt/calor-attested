@@ -1,0 +1,49 @@
+{
+  "name": "CALOR ATTESTED \u2014 Vitrine Covenant (14/38)",
+  "description": "Thermal-provenance vitrine piece from the CALOR ATTESTED collection. Seeded by the live thermodynamic state of the machine that rendered it: NVIDIA GeForce GTX 1650 at 38.0C under a 50W power envelope at generation time. The glass carries exactly three etched lines \u2014 14/38, 38.0C 50W, and the state-hash d069-5472-9bdd-9b3e \u2014 so the covenant is in the room, not in the metadata. Full provenance ships in the collection manifest. Edition of 38.",
+  "image": "https://raw.githubusercontent.com/igor-holt/calor-attested/main/collections/c01-calor-attested/04-vitrine.jpg",
+  "external_url": "https://x402-paid-service.iholt.workers.dev/api/artifact/c01-calor-attested",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "CALOR ATTESTED"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "14/38"
+    },
+    {
+      "trait_type": "Content SHA-256",
+      "value": "aefe7a31eb503f9606f55e749fc00400752dab522996d4d7524a5dad197faf95"
+    },
+    {
+      "trait_type": "Attestation State-Hash",
+      "value": "d06954729bdd9b3e"
+    },
+    {
+      "trait_type": "Thermal State",
+      "value": "38.0C @ 50W"
+    },
+    {
+      "trait_type": "Device",
+      "value": "NVIDIA GeForce GTX 1650"
+    },
+    {
+      "trait_type": "Generation Model",
+      "value": "grok-imagine-image-2.0"
+    },
+    {
+      "trait_type": "Created",
+      "value": "2026-10-04T07:36:00Z"
+    },
+    {
+      "trait_type": "License",
+      "value": "Personal display + commercial resale rights via token ownership"
+    }
+  ],
+  "content": {
+    "mime": "image/jpeg",
+    "uri": "https://raw.githubusercontent.com/igor-holt/calor-attested/main/collections/c01-calor-attested/04-vitrine.jpg"
+  },
+  "_status": "FROZEN \u2014 canonical metadata for the 38-piece edition; image served from this repository (raw URL); sha256 attribute commits to the bytes."
+}
