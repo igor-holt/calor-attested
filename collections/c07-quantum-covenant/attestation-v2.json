@@ -1,0 +1,91 @@
+{
+  "schema": "calor-attestation/v2",
+  "captured_at": "2026-10-07T10:42:48.639249+00:00",
+  "state_hash": "41f8e470dc2c4a7c",
+  "layers": {
+    "thermal": {
+      "device": "NVIDIA GeForce GTX 1650",
+      "temperature_c": 47,
+      "power_limit_w": 50.0,
+      "vram_used_pct": 88.89,
+      "ts": 1791369766.3556113
+    },
+    "qubo_cudaq": {
+      "backend": "cudaq",
+      "elapsed_seconds": 26.972,
+      "energy": -0.0023333333333335204,
+      "assignment": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "decision": {
+        "wallet_count": 10,
+        "wrap_mode": "balanced",
+        "concurrency": 1,
+        "gas_priority": "economy",
+        "refuel_threshold_eth": 0.0005,
+        "qubo_energy": -0.0023,
+        "qubo_solution": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "var_labels": [
+          "wallet-count-low",
+          "wallet-count-high",
+          "wrap-amount-low",
+          "wrap-amount-high",
+          "concurrency-low",
+          "concurrency-high",
+          "gas-priority",
+          "refuel-threshold"
+        ]
+      },
+      "backend_metadata": {
+        "backend": "cudaq-nvidia",
+        "shots": 2048,
+        "result": "{ 00000000:995 10000000:1053 }\n"
+      },
+      "solve_content_sha256": "005df5463ce39ad86a4e4ef52a307d0e96209946d8526c98b94b09dd4a0f247d",
+      "thermodynamic_input": {
+        "eta_thermo": 0.48888888888888893,
+        "epsilon": 0.846,
+        "vram_pct": 0.846,
+        "gpu_util": 1.0,
+        "decode_tok_s": 0.0,
+        "ttft_p95_s": 9.9,
+        "oom_risk": 0.1,
+        "network_latency_ms": 0.0,
+        "crystalline_score": 0.3214444444444445
+      },
+      "timestamp": "2026-10-07T10:38:16.671247Z",
+      "note": "decision variables: wallet-count (5/10/15/25), wrap-amount, concurrency, gas-priority, refuel-threshold"
+    },
+    "onchain_attestation_chain": {
+      "height": 1465,
+      "prev_hash": "e69ef0f15ef1eb24e0e9556d13102cd00e1ebdd3064168cb19205ff4a8015382",
+      "iso": "2026-10-07T03:15:12Z",
+      "asset": "wQFLOP"
+    },
+    "rule30_vdf": {
+      "seed": "41f8e470dc2c4a7c",
+      "steps": 512,
+      "width": 512,
+      "final_hash": "b7264d9c428b83c126d3a5fd3a8f7001501bf6d1747a5fe7bdbe8afa0200787e",
+      "elapsed_seconds": 0.4039,
+      "verification": "re-run: rule30_vdf.py <seed> <width> <steps> \u2014 final_hash must match; sequential row dependency proves the compute elapsed"
+    }
+  },
+  "prompt_fragment": "verified proven compute: NVIDIA GeForce GTX 1650 at 47C under 50W, QUBO solved on the cudaq quantum-simulation backend (energy -0.0023333333333335204), Rule 30 VDF evolved 512 rows to hash b7264d9c428b83c1, state-hash 41f8e470dc2c4a7c"
+}

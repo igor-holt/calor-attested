@@ -18,3 +18,12 @@ The hero piece carries exactly three etched lines: `14/38`, `38.0C 50W`, and the
 - Zora mint: announced at launch
 
 Generated with Grok Imagine (grok-imagine-image-2.0), vision-gated across 4 evolution loops. All prompts are included in this repository — full transparency.
+
+## Verified proven compute (attestation v2)
+QUANTUM COVENANT pieces carry a four-layer machine attestation:
+1. **Thermal** — live GPU state (device, temperature, power envelope) at generation time
+2. **QUBO / CUDA-Q** — the fleet's live quantum-simulation solve: backend, shot counts, measured state distribution, energy, and the decision vector (the same optimization that governs wallet brackets, gas priority, refuel thresholds)
+3. **Attestation chain** — reference to the fleet's hash-chained on-chain compute attestation ledger (wQFLOP, Base)
+4. **Rule 30 VDF** — a genuine Wolfram Rule 30 sequential evolution seeded by the merged state hash; anyone can re-run `rule30_vdf.py <seed> <width> <steps>` and verify the final hash, proving the compute elapsed
+
+D-Wave annealer provenance: not yet configured on this host — it becomes the fifth layer when a Leap API token is provided.

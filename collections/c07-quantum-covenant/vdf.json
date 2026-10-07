@@ -1,0 +1,11 @@
+{
+  "vdf": "wolfram-rule30",
+  "seed": "41f8e470dc2c4a7c",
+  "width": 512,
+  "steps": 512,
+  "final_hash": "b7264d9c428b83c126d3a5fd3a8f7001501bf6d1747a5fe7bdbe8afa0200787e",
+  "elapsed_seconds": 0.4039,
+  "steps_per_second": 1267.6,
+  "verification": "re-run: rule30_vdf.py <seed> <width> <steps> \u2014 final_hash must match; sequential row dependency proves the compute elapsed",
+  "rendered_texture": true
+}

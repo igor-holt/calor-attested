@@ -16,3 +16,5 @@
 | c04-unlit-course | 01.jpg | 0c234a01ce4eec68 | 246754 |
 | c05-lathe-cherub | 01.jpg | 10dfdfde5d68cefb | 533986 |
 | c06-closed-book | 01.jpg | 40fd847103b8856f | 384872 |
+| c07-quantum-covenant | 01.jpg | 1a3494cb6cc238f7 | 327765 |
+| c07-quantum-covenant | rule30.png | c47437f89d649111 | 39452 |
